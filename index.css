@@ -49,9 +49,10 @@ font-size: 1em;
 pointer-events: none;
 transition: .5s;
 }
+
 .inputbox input:focus ~ label,
 .inputbox input:valid ~ label{
-    top: -5px;
+    top: -15px;
 }
 .inputbox input{
 width: 100%;
